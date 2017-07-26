@@ -1,0 +1,20 @@
+$red: #EE5F5B;
+
+
+.badge {
+  color: $white;
+  font-family: $fontFamily;
+  border-radius: 20px;
+  width: 20px;
+  text-align: center;
+  position: relative;
+}
+.badge-red {
+  background-color: $red;
+  margin-left: 30px;
+  margin-bottom: 40px;
+  padding: 3px;
+}
+.avatar-badge {
+  position: absolute;
+}

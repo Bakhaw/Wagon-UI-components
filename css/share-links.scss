@@ -1,0 +1,30 @@
+$facebookColor: #3B5998;
+$twitterColor: #00A3E1;
+$envelopeColor: #AEAEAE;
+$mobileColor: #4A4A4A;
+
+$paddingLinks: 15px 125px;
+
+
+.share-links {
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  width: 80%;
+  margin: auto;
+}
+.share-links .fa {
+  color: $white;
+  padding: $paddingLinks;
+  border-radius: 2px;
+}
+.share-links .fa-facebook {
+  background-color: $facebookColor;
+}
+.share-links .fa-twitter {
+  background-color: $twitterColor;
+}.share-links .fa-envelope-o {
+  background-color: $envelopeColor;
+}.share-links .fa-mobile {
+  background-color: $mobileColor;
+}

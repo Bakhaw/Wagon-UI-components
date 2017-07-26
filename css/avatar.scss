@@ -1,0 +1,27 @@
+$width: 50px;
+$widthLarge: 100px;
+$boxShadow:3px 3px 3px rgb(171, 171, 171);
+$borderRadius: 50%;
+$border: 2px solid #BEBEBE;
+
+.avatar {
+  width: $width;
+  border-radius: $borderRadius;
+}
+
+.avatar-large {
+  width: $widthLarge;
+  border-radius: $borderRadius;
+}
+
+.avatar-bordered {
+  @extend .avatar;
+  border: $border;
+  box-shadow: $boxShadow;
+}
+
+.avatar-square {
+  width: $width;
+  border: $border;
+  box-shadow: $boxShadow;
+}

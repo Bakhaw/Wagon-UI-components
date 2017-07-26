@@ -1,0 +1,24 @@
+$backgroundImage: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('../images/card.jpg');
+
+#card {
+  display: flex;
+  justify-content: space-between;
+  background-image: $backgroundImage;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80%;
+  margin: auto;
+}
+#card > div {
+  margin: 10px;
+}
+.card {
+  font-family: $fontFamily;
+  color: $white;
+  font-size: $fontSize;
+}
+.card-category {
+  margin-bottom: 80px;
+}
+.card-user {
+}

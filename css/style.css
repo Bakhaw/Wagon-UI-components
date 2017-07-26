@@ -1,0 +1,105 @@
+.avatar, .avatar-bordered {
+  width: 50px;
+  border-radius: 50%; }
+
+.avatar-large {
+  width: 100px;
+  border-radius: 50%; }
+
+.avatar-bordered {
+  border: 2px solid #BEBEBE;
+  box-shadow: 3px 3px 3px #ababab; }
+
+.avatar-square {
+  width: 50px;
+  border: 2px solid #BEBEBE;
+  box-shadow: 3px 3px 3px #ababab; }
+
+.btn-medium {
+  color: #BEBEBE;
+  border: 1px solid #BEBEBE;
+  border-radius: 50px;
+  padding: 13px;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Open Sans", "Helvetica", "sans-serif"; }
+  .btn-medium:hover {
+    color: #999999;
+    border: 1px solid #999999; }
+
+.btn-treehouse {
+  color: #fff;
+  background-color: #6AD58B;
+  border-color: #6AD58B;
+  border-radius: 10px;
+  text-decoration: none;
+  padding: 13px;
+  font-size: 16px;
+  font-family: "Open Sans", "Helvetica", "sans-serif";
+  font-weight: bold; }
+  .btn-treehouse:hover {
+    background-color: #3ac162;
+    border-color: #3ac162; }
+
+.badge {
+  color: #fff;
+  font-family: "Open Sans", "Helvetica", "sans-serif";
+  border-radius: 20px;
+  width: 20px;
+  text-align: center;
+  position: relative; }
+
+.badge-red {
+  background-color: #EE5F5B;
+  margin-left: 30px;
+  margin-bottom: 40px;
+  padding: 3px; }
+
+.avatar-badge {
+  position: absolute; }
+
+#card {
+  display: flex;
+  justify-content: space-between;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url("../images/card.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80%;
+  margin: auto; }
+
+#card > div {
+  margin: 10px; }
+
+.card {
+  font-family: "Open Sans", "Helvetica", "sans-serif";
+  color: #fff;
+  font-size: 16px; }
+
+.card-category {
+  margin-bottom: 80px; }
+
+.share-links {
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  width: 80%;
+  margin: auto; }
+
+.share-links .fa {
+  color: #fff;
+  padding: 15px 125px;
+  border-radius: 2px; }
+
+.share-links .fa-facebook {
+  background-color: #3B5998; }
+
+.share-links .fa-twitter {
+  background-color: #00A3E1; }
+
+.share-links .fa-envelope-o {
+  background-color: #AEAEAE; }
+
+.share-links .fa-mobile {
+  background-color: #4A4A4A; }
+
+/*# sourceMappingURL=style.css.map */

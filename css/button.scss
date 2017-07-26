@@ -1,0 +1,43 @@
+$light-grey: #BEBEBE;
+$dark-grey:  #999999;
+$light-green: #6AD58B;
+$dark-green: #3ac162;
+$white: #fff;
+
+$padding: 13px;
+$borderRadius-high: 50px;
+$borderRadius-low: 10px;
+$border-light: 1px solid $light-grey;
+$border-dark: 1px solid $dark-grey;
+
+$fontSize: 16px;
+$fontFamily: "Open Sans", "Helvetica", "sans-serif";
+
+.btn-medium {
+  color: $light-grey;
+  border: $border-light;
+  border-radius: $borderRadius-high;
+  padding: $padding;
+  text-decoration: none;
+  font-size: $fontSize;
+  font-family: $fontFamily;
+  &:hover {
+    color: $dark-grey;
+    border: $border-dark;
+  }
+}
+.btn-treehouse {
+  color: $white;
+  background-color: $light-green;
+  border-color: $light-green;
+  border-radius: $borderRadius-low;
+  text-decoration: none;
+  padding: $padding;
+  font-size: $fontSize;
+  font-family: $fontFamily;
+  font-weight: bold;
+  &:hover {
+    background-color: $dark-green;
+    border-color: $dark-green;
+  }
+}
